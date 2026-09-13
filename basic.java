@@ -202,13 +202,13 @@ abstract class vehicle{
 }
 class car extends vehicle{
    void start(){
-      System.out.println("car is start");
+      System.out.println("car is start my car");
    }
 }
 public class basic{
    public static void main(String[] args){
-      vehicle d=new car();
-      d.start();
+      vehicle a=new car();
+      a.start();
       //d.eat();
    }
 }
